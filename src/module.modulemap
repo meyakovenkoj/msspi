@@ -1,0 +1,9 @@
+module msspi_c {
+    umbrella header "msspi.h"
+
+    export *
+    module * {
+      export *
+    }
+}
+
