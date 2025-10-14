@@ -1,5 +1,7 @@
 // microsspi
 
+#define SEC_I_MESSAGE_FRAGMENT 0x00090364
+
 #ifdef _WIN32
 #ifndef __MINGW32__
 #   pragma warning( disable:4820 )
