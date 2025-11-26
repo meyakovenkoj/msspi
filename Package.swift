@@ -13,7 +13,7 @@ let package = Package(
 	.target(
 	    name: "msspi_c",
 	    path: "src",
-	    publicHeadersPath: ".",
+	    publicHeadersPath: "include",
 	    cSettings: [
 		.headerSearchPath("../third_party/cprocsp/include")
 	    ]
